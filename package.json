@@ -1,10 +1,29 @@
 {
-  "name": "phasernodejs",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node web.js"
-  },
+  "name": "HerokuPhaserTemplate",
+  "version": "0.0.0",
+  "description": "test fo phaser and heroku",
+  "main": "web.js",
   "dependencies": {
-  }
+    "express": "^4.1.1",
+    "logfmt": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lordkuragari/HerokuPhaserTemplate.git"
+  },
+  "keywords": [
+    "heroku",
+    "test",
+    "phaser"
+  ],
+  "author": "lordkuragari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordkuragari/HerokuPhaserTemplate/issues"
+  },
+  "homepage": "https://github.com/lordkuragari/HerokuPhaserTemplate"
 }

@@ -6,9 +6,7 @@ var fs = require("fs");
 var app = express();
 
 // configure path root
-app.configure(function() {
 	app.use(express.static(__dirname + "/public"));
-});
 
 // match get requests
 app.get("/", function(_req, _res) {
